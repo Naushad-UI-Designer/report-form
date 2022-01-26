@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Report Form</title>
+
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+        <!--custom css-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>    
+
+      <div class="ks-report-form">
+          <form id="ks-report-issue-form" action="" method="post" class="ks-report-issue-form">
+              <h1>Report an Issue</h1>
+              <h5>Your Reason</h5>
+              <fieldset class="ks-form-fieldset">
+                  <div class="ks-report-field">
+                      <label>Email</label><br>
+                      <input type="email" tabindex="2" placeholder="Email" class="ks-form-field" required><br>
+                  </div>
+                  <div class="ks-report-field">
+                    <label for="images">Reason</label><br>
+                    <select name="image" id="image" class="ks-form-field">
+                      <option>Image</option>
+                      <option>Reason 1</option>
+                    </select>
+                  </div>
+                  <div class="ks-report-field">
+                    <label for="issues">Sub Reason</label><br>
+                    <select name="issues" id="issues" class="ks-form-field">
+                      <option>issues ?</option>
+                      <option>issues 1</option>
+                    </select>
+                  </div>
+                  <div class="ks-report-field">
+                      <label>Comment</label><br>
+                      <textarea tabindex="6" rows="4" cols="50" class="ks-form-field" placeholder="Write Comment" required></textarea><br>
+                  </div>
+                  <div class="form-info">
+                      <img src="img/flaticon.svg">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  </div>
+                  <button name="submit" type="submit" id="ks-report-submit">Submit</button>
+              </fieldset>
+          </form>
+      </div>
+</html>      
